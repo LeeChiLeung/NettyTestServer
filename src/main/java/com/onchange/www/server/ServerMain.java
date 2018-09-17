@@ -27,7 +27,7 @@ public class ServerMain {
 	private void start() throws Exception {
 		//创建 EventLoop
 		EventLoopGroup group = new NioEventLoopGroup();
-		
+		System.out.println("服务端启动.");
 		try {
 			//绑定本地端口
 			ServerBootstrap se = new ServerBootstrap();
